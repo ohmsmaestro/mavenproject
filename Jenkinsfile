@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'git@github.com:ohmsmaestro/1pally-service.git'
+                git branch: 'main', url: 'https://github.com/ohmsmaestro/mavenproject.git'
             }
         }
         
