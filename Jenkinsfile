@@ -22,7 +22,7 @@ pipeline {
             steps {
                 ansiblePlaybook(
                     inventory: '/var/lib/jenkins/ansible/inventory',
-                    playbook: '/var/lib/jenkins/ansible/deploy.yml'
+                    playbook: '/var/lib/jenkins/ansible/deploymeny.yml'
                 )
             }
         }
